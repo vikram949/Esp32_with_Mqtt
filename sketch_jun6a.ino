@@ -8,7 +8,7 @@
 #define LED_BUILTIN 2
 #endif
 
-const char* mqtt_server = "65.0.75.212";
+const char* mqtt_server = "your_mqtt_server";
 WiFiClient espClient;
 PubSubClient client(espClient);
 
